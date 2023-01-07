@@ -3,7 +3,7 @@ import operator as op
 
 def nbr_par_commune () :
 
-    workbook = openpyxl.load_workbook('/home/etudiant/Documents/exportADOC_2022-2023.xlsx', data_only = True)
+    workbook = openpyxl.load_workbook('exportADOC_2022-2023.xlsx', data_only = True)
     titres_onglets = workbook.sheetnames
     onglet1 = workbook[titres_onglets[0]]
     
