@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 import openpyxl
 import nbr_adherent_categorie as nbr
-
+plt.rcParams["figure.figsize"] = (10, 10)
 nbr.effectif_categorie()
 
 fig, axes = plt.subplots()  # Creation d'un figure avec un seul axe
-axes.set_title('Devenir des diplomés R&T')
+axes.set_title('Répartition Homme / Femme par catégorie')
 
 labels = ['mini' , 'jeune' , 'adulte']
 colors = ['blue', 'red', 'yellowgreen']
