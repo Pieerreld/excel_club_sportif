@@ -2,7 +2,7 @@ import openpyxl
 
 def civilite_categorie():
 
-    workbook = openpyxl.load_workbook('exportADOC_2022-2023.xlsx', data_only = True)
+    workbook = openpyxl.load_workbook('/home/etudiant/Documents/exportADOC_2022-2023.xlsx', data_only = True)
     titres_onglets = workbook.sheetnames
     onglet1 = workbook[titres_onglets[0]]
     
