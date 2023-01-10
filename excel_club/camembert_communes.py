@@ -1,3 +1,6 @@
+#Créé le 31/12/22, dernière modification le 10/01/23, Le Dreff Pierre
+#Cré le graphe en camembert de la répartition des adhérents par commune en %
+
 import matplotlib.pyplot as plt
 import ville
 import communes
@@ -23,5 +26,5 @@ for value in communes.nbr_par_commune():
 plt.legend(labels, bbox_to_anchor=(1,0), loc="right", 
                           bbox_transform=plt.gcf().transFigure)
 
-plt.savefig('repartition_communes.png')
+plt.savefig('../datas/repartition_communes.png')
 plt.show()

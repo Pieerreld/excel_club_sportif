@@ -1,8 +1,13 @@
+#Créé le 26/12/22, dernière modification le 10/01/23, Le Dreff Pierre
+#Compte dans la liste des âges le nombre de personne dans la tranche d'âge donné et incremente le compteur correspondant
+#Return une liste de trois nombre, le premier correspond au nombre de personnes dans la catégorie mini, le second dans la catégorie jeune puis le derniere dans la catégorie adulte
+
+
 import openpyxl
 
 def effectif_categorie() :
 
-    workbook = openpyxl.load_workbook('/home/etudiant/Documents/exportADOC_2022-2023.xlsx', data_only = True)
+    workbook = openpyxl.load_workbook('../datas/exportADOC_2022-2023.xlsx', data_only = True)
     titres_onglets = workbook.sheetnames
     onglet1 = workbook[titres_onglets[0]]
     

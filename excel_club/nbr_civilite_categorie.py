@@ -1,8 +1,12 @@
+#Créé le 7/01/23, dernière modification le 10/01/23, Le Dreff Pierre
+#Reprend le même principe que nbr_adherent_categorie.py mais le compteur d'âge existe en deux version (homme ou femme) pose donc une condition pour connaitre la version à incrémenter
+#Return une liste de nombres dans le même ordre que nbr_adhrent_categorie mais par deux pour une catégorie, le premier correspondant aux femmes et le second aux hommes
+
 import openpyxl
 
 def civilite_categorie():
 
-    workbook = openpyxl.load_workbook('/home/etudiant/Documents/exportADOC_2022-2023.xlsx', data_only = True)
+    workbook = openpyxl.load_workbook('../datas/exportADOC_2022-2023.xlsx', data_only = True)
     titres_onglets = workbook.sheetnames
     onglet1 = workbook[titres_onglets[0]]
     

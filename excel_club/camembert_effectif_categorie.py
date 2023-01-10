@@ -1,3 +1,6 @@
+#Créé le 29/12/22, dernière modification le 10/01/23, Le Dreff Pierre
+#Cré le graphe en camembert de la répartition des adhérents par catégorie en %
+
 import matplotlib.pyplot as plt
 import openpyxl
 import nbr_adherent_categorie as nbr
@@ -17,5 +20,5 @@ plt.pie(nbr.effectif_categorie(), labels=labels, colors=colors,
 #positionne la legende au mieux
 axes.legend(loc='best')
 
-plt.savefig('effectif_categorie.png')
+plt.savefig('../datas/effectif_categorie.png')
 plt.show()
