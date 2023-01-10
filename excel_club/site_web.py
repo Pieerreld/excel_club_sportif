@@ -24,16 +24,16 @@ def web():
             <p>Le nombre d'adhérent est : {}.</p>
         </article>
         <article>
-            <img src="effectif_categorie.png">
+            <img src="../datas/effectif_categorie.png">
         </article>
         <article>
-            <img src="repartition_communes.png" style="width:100%;">
+            <img src="../datas/repartition_communes.png" style="width:100%;">
         </article>
         <article>
-            <img src="homme_femme_categorie.png">
+            <img src="../datas/homme_femme_categorie.png">
         </article>
         <article>
-            <img src="nbr_par_classement.png">
+            <img src="../datas/nbr_par_classement.png">
         </article>
     
     </body>

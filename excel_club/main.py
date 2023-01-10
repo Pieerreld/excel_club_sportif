@@ -4,8 +4,8 @@
 
 import site_web
 import subprocess
-subprocess.run(["python3", "../datas/camembert_communes.py"])
-subprocess.run(["python3", "../datas/camembert_effectif_categorie.py"])
-subprocess.run(["python3", "../datas/histogramme_civilite.py"])
-subprocess.run(["python3", "../datas/histogramme_classement.py"])
+subprocess.run(["python3", "camembert_communes.py"])
+subprocess.run(["python3", "camembert_effectif_categorie.py"])
+subprocess.run(["python3", "histogramme_civilite.py"])
+subprocess.run(["python3", "histogramme_classement.py"])
 print(site_web.web())
